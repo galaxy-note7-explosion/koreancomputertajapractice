@@ -1,0 +1,1 @@
+from shorttaja import *
