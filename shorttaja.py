@@ -14,6 +14,7 @@ perfect = 0
 for i in range(count-1):
     if m[i] == m1[i]:
         perfect += 1
+print(perfect)
 print("걸린 시간 :", int(sec))
 print("타수 :", int(perfect * 60 / sec))
-print("정확도 :", int(perfect / count * 100))
+print("정확도 :", int(perfect / (count-1) * 100))
